@@ -1,5 +1,8 @@
 {
-  "builds": [{ "src": "api/latency.py", "use": "@vercel/python" }],
+  "version": 2,
+  "builds": [
+    { "src": "api/latency.py", "use": "@vercel/python" }
+  ],
   "headers": [
     {
       "source": "/api/latency",
